@@ -1,0 +1,15 @@
+modules:
+  http_2xx:
+    prober: http
+    http:
+      valid_status_codes: [200]
+      follow_redirects: true
+      tls_config:
+        insecure_skip_verify: true
+  http_3xx:
+    prober: http
+    http:
+      valid_status_codes: [301, 302]
+      follow_redirects: false
+      tls_config:
+        insecure_skip_verify: false
