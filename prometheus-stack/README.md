@@ -10,7 +10,7 @@ endpoints.
 The Prometheus server stores the metrics and performs the scraping.
 
 Files:
- - etc/prometheus_config.yml.example: Prometheus configuration (see link TODO).
+ - etc/prometheus_config.yml.example: Prometheus configuration
 
 Ports:
  - 9091:9090 - frontend and querying port
